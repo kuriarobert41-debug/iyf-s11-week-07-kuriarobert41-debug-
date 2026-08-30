@@ -1,0 +1,17 @@
+{
+  "name": "iyf-week7-kuriarobert41-debug",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "lint": "eslint . --ext .js",
+    "lint:fix": "eslint . --ext .js --fix",
+    "format": "prettier --write .",
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.0",
+    "prettier": "^2.0.0",
+    "vitest": "^1.0.0"
+  }
+}
